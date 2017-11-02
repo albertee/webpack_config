@@ -8,7 +8,9 @@
     "webpack": "^3.8.1"
   },
   "scripts": {
-    "test": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
