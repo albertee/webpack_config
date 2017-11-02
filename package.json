@@ -1,0 +1,27 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "webpack config",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/albertee/webpack_config.git"
+  },
+  "keywords": [
+    "webpack",
+    "config"
+  ],
+  "author": "albert.li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albertee/webpack_config/issues"
+  },
+  "homepage": "https://github.com/albertee/webpack_config#readme"
+}
